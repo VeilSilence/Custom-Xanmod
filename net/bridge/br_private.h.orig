@@ -51,7 +51,7 @@ enum {
 #define BR_GROUPFWD_8021AD	0xB801u
 
 /* Path to usermode spanning tree program */
-#define BR_STP_PROG	"/run/current-system/sw/bin/bridge-stp"
+#define BR_STP_PROG	"/sbin/bridge-stp"
 
 #define BR_FDB_NOTIFY_SETTABLE_BITS (FDB_NOTIFY_BIT | FDB_NOTIFY_INACTIVE_BIT)
 
